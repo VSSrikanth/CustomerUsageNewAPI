@@ -82,7 +82,6 @@ public class CustomerUsageController {
 
     private JSONObject extractData(CustomerUsageReq req, List<ExtendedLatestTransactions> transactions) {
         JSONObject entity = new JSONObject();
-        //List<Double> allValues = new ArrayList();
         Double total = new Double("0.00");
         entity.put("auth", "unknown operation");
         switch (req.getBilling()) {
