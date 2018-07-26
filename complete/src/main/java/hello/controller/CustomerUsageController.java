@@ -53,7 +53,6 @@ public class CustomerUsageController {
         List<JSONObject> entities = new ArrayList<>();
         JSONObject entity = new JSONObject();
 
-
         logger.info(req.toString());
         List<CustomerServiceUsageVBOType> vboList = new ArrayList<>();
 
