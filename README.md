@@ -1,2 +1,2 @@
 # CustomerUsageNewAPI
-Sample spring boot microservice
+Sample spring boot microservice deployed
